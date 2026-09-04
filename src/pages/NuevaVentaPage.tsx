@@ -346,7 +346,7 @@ export function NuevaVentaPage() {
                           type="button"
                           variant="ghost"
                           size="icon"
-                          className="text-red-600"
+className="text-destructive"
                           onClick={() => removeItem(item.producto.id)}
                         >
                           <Trash2 className="h-4 w-4" />
@@ -450,7 +450,7 @@ export function NuevaVentaPage() {
                 </div>
                 <div className="flex justify-between">
                   <span>Descuento</span>
-                  <span className="text-red-600">-{formatCurrency(descuento)}</span>
+                  <span className="text-destructive">-{formatCurrency(descuento)}</span>
                 </div>
                 <div className="flex justify-between text-lg font-bold border-t pt-4">
                   <span>Total</span>

@@ -213,7 +213,7 @@ export function ClientesPage() {
                       <TableCell>
                         {cliente.descuento_especial_pct > 0 ? (
                           <div className="flex items-center gap-1">
-                            <Tag className="h-4 w-4 text-green-600" />
+                            <Tag className="h-4 w-4 text-secondary" />
                             {cliente.descuento_especial_pct}%
                           </div>
                         ) : (

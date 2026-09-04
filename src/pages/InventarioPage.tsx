@@ -194,7 +194,7 @@ export function InventarioPage() {
                                 Editar
                               </Link>
                             </DropdownMenuItem>
-                            <DropdownMenuItem className="text-red-600">
+                            <DropdownMenuItem className="text-destructive">
                               <Trash2 className="h-4 w-4 mr-2" />
                               Eliminar
                             </DropdownMenuItem>

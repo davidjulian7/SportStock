@@ -90,8 +90,8 @@ export function DashboardPage() {
   return (
     <div className="space-y-6">
       {!isConfigured && (
-        <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-          <p className="text-yellow-800 text-sm">
+        <div className="bg-accent border border-border rounded-lg p-4">
+          <p className="text-accent-foreground text-sm">
             <strong>Supabase no configurado.</strong> Edita el archivo <code>.env</code> con tus credenciales de Supabase para conectar la base de datos.
           </p>
         </div>
@@ -226,7 +226,7 @@ export function DashboardPage() {
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <ArrowUpRight className="h-5 w-5 text-green-600" />
+              <ArrowUpRight className="h-5 w-5 text-secondary" />
               Productos Más Vendidos
             </CardTitle>
           </CardHeader>
